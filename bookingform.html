@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>booking</title>
+    </head>
+    <body>
+        <h1>
+            <b>Booking Form</b>
+        </h1>
+        <p>Booking with us is simple and easy. Just fill in the booking form below and we will email your itinerary and
+           payment details. Please don't forget you have to submit the payment for your reservation in 24 hours after
+           submitting the booking form.
+        </p>
+        <hr>
+
+        <label>full name:</label>
+        <br>
+        <input type="name" name="fullname" placeholder="full name">
+        <hr>
+
+        <label>User name:</label>
+        <input type="name" name="username" >
+        <hr>
+
+        <label>Password(8 charecters minimum):</label>
+        <input type="name" name="password" >
+        <hr>
+
+        <label>Start Date:</label>
+        <br>
+        <input type="date" name="sdate" placeholder="dd  / mm / yyyy">
+        <hr>
+
+        <label>Return Date:</label>
+        <br>
+        <input type="date" name="rdate" placeholder="dd  / mm / yyyy">
+        <hr>
+
+        <label>Email:</label>
+        <br>
+        <input type="text" name="email" size="40">
+        <hr>
+
+        <label>Phone Number:</label>
+        <br>
+        <input type="number" name="phone_number">
+        <hr>
+
+        <label>Start time:</label>
+        <input type="time" name="stime" placeholder="--:--">
+        <hr>
+
+        <label>Return time:</label>
+        <br>
+        <input type="time" name="rtime" placeholder="--:--">
+        <hr>
+
+        <label>Type of room/ticket:</label>
+        <input type="radio" id="economy" name="type of room/ticket"/>
+        <label for="Economy">Economy</label>
+        <input type="radio" id="premium" name="type of room/ticket"/>
+        <label for="Premium">Premium</label>
+        <input type="radio" id="business" name="type of room/ticket"/>
+        <label for="Business">Business</label>
+        <hr>
+
+        <label>Number of guests/passengers:</label>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <hr>
+        <label>Description</label><br>
+        <textarea rows="6" cols="60"></textarea><br>
+        <hr>
+        <button type="button">Submit</button>
+    </body>
+</html>
